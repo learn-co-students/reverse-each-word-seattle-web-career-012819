@@ -5,5 +5,5 @@ def reverse_each_word(string)
   array.each do |string|
     final_array << string.reverse 
   end
-  final_array
+  final_array.join(" ")
 end
